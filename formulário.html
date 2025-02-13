@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>ser MANEIRO</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="maneiro, sabia, vinheta">
+        <meta name="description" content="ser fan do você sabia">
+        <meta name="author" content="Igor">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <img class="img-banner" src="img/sabia.jpg" alt="imagem do canal 'você sabia'">
+        </header>    
+        
+        <nav>
+            <a class="a-menu" href="index.html">HOME</a>
+            <a class="a-menu" href="index.html#pag-guerraFria">GUERRA</a>
+            <a class="a-menu" href="index.html#pag-feudalismo"> FEUDALISMO </a>
+            <a class="a-menu" href="index.html#pag-filosofia">FILOSOFIA</a>
+            <a class="a-menu" href="index.html#pag-BrasilColonial">BRASIL</a>
+        </nav>    
+
+
+
+
+
+        <section id="pag-agendamentos">
+            <h1>formulário fan</h1>
+
+            <p>se increva aqui para ser um <b>fan</b></p>
+
+                
+            <form name="" method="" action="">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome_completo" id="nome" placeholder="Digite seu nome completo" required="true" autofocus/>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="nomeusuário@email.com">
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="digite números"/>
+
+                <label for="telefone">Telefone</label>
+                <input type="tell" id="telefone" placeholder="(99) 99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"/>
+                <div id="data">
+                    
+                    <div>
+                        <label for="data">Data:</label>
+                        <input type="date" id="data" name="data">
+                    </div>
+                    
+                    <div>
+                        <label for="hora">Hora:</label>
+                        <input type="time" id="hora" name="hora">
+                    </div>
+                    
+                    <div>
+                        <label for="aulas">Aulas</label>
+                        <input type="number" id="aulas" min="1" max="10" step="1" name="aulas">
+                    </div>
+                </div>
+                
+                <label for="nivel">Nível</label>
+                <select id="nivel" name="nivel">
+                    <option value=""></option>
+                    <option value="iniciante">iniciante</option>
+                    <option value="basico">Básico</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+
+                <fieldset>
+                    <legend>Gênero</legend>
+                    <input id="masc" type="radio" name="genero" value="masc"> <label for="masc">Maculino</label><br/>
+                    <input id="fem" type="radio" name="genero" value="fem"> <label for="fem">Femimino</label><br/>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>atividades</legend>
+                    <input id="musculacao" type="checkbox" name="atividades" value="musculacao"> <label for="musculacao">musculação</label><br/>
+                    <input id="pilates" type="checkbox" name="atividades" value="pilates"> <label for="pilates">pilates</label><br/>
+                    <input id="yoga" type="checkbox" name="atividades" value="yoga"> <label for="yoga">yoga</label><br/>
+                    <input id="corrida" type="checkbox" name="atividades" value="corrida"> <label for="corrida">corrida</label><br/>
+                </fieldset>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="52" rows="4">
+                </textarea>
+                    
+                <div id="botao">
+                    <p><input type="submit" name="bnt-agendar" value="agendar">
+                    <input type="reset" name="cancelar" value="cancelar"></p>
+                </div>
+            </form>
+        </section>
+        <p> feito por Igor Oliveira</p>
+    </body>
+</html>
